@@ -1,0 +1,23 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "My example UKCOTS book"
+  author: "Megan Barnard"
+  date: "6/25/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+
+editor: visual
+
